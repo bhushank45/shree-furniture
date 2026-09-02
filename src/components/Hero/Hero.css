@@ -1,0 +1,129 @@
+.hero {
+  min-height: calc(100vh - 80px);
+}
+.label {
+  color: #c86a34;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #f3dbcc;
+  padding: 5px;
+  border-radius: 12px;
+}
+.hero-container {
+  /* background-color: #f7f5ed; */
+  display: flex;
+  align-items: center;
+  min-height: 550px;
+  padding: 0 40px 0;
+  margin-bottom: 20px;
+}
+.hero-content h1 {
+  margin: 15px 0;
+  font-size: 60px;
+  font-family: Georgia, serif;
+}
+.hero-content h2 {
+  margin: 0 0 20px;
+  font-size: 27px;
+  font-weight: 500;
+  color: #56623b;
+}
+.dash {
+  display: block;
+  width: 55px;
+  height: 3px;
+  margin-bottom: 25px;
+  background-color: #c86a34;
+}
+.hero-content p {
+  max-width: 500px;
+  margin-bottom: 30px;
+  font-size: 17px;
+  line-height: 1.6;
+  color: #444;
+}
+.hero-content {
+  flex: 1;
+  background-color: #f7f5ed;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px 0 0 10px;
+  border: 1px solid;
+  border-right: none;
+}
+/* Buttons */
+.hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+.hero-primary-btn,
+.hero-secondary-btn {
+  padding: 14px 25px;
+  border: none;
+  /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28); */
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.hero-primary-btn {
+  background-color: #c86a34;
+  color: white;
+}
+
+.hero-primary-btn:hover {
+  background-color: #b84b1f;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+}
+
+.hero-secondary-btn {
+  border: 1px solid #c86a34;
+  color: #222;
+}
+
+.hero-secondary-btn:hover {
+  background-color: #c86a34;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28);
+  color: white;
+}
+/* Hero Image */
+.hero-image {
+  flex: 1;
+  height: 501px; 
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius:0 10px 10px 0;
+  border: 1px solid;
+  border-left: none;
+}
+.hero-features{
+    display: flex;
+    justify-content: space-between;
+    margin:0 40px 0;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.feature span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #fde1d0;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+}

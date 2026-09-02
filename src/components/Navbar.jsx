@@ -26,7 +26,7 @@ function Navbar() {
           <Link to="/contactus">Contact Us</Link>
         </li>
       </ul>
-      <Link to="/ourshowroom" className="showroom-btn">Vist Showroom</Link>
+      <Link to="/ourshowroom" className="showroom-btn">Visit Showroom</Link>
     </nav>
   );
 }
