@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/shree-furniture-logo(white).png";
+import logo from "../../assets/shree-furniture-logo(white).png";
 import "./Footer.css";
 
 function Footer() {
