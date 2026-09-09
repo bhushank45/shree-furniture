@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import logo from "../../assets/shree-furniture-logo.png";
 import "./Navbar.css";
 
@@ -6,30 +6,33 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbrand">
-        <Link to="/">
+        <NavLink to="/">
           <img src={logo} alt="Shree Furniture" />
-        </Link>
+        </NavLink>
       </div>
       <ul className="navlinks">
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/" end>Home</NavLink>
         </li>
         <li>
-          <Link to="/collections">Collections</Link>
+          <NavLink to="/collections">Collections</NavLink>
         </li>
         <li>
+          <NavLink to="/ourshowroom">Our Showroom</NavLink>
+        </li>
+        {/* <li>
           <Link to="/aboutus">About Us</Link>
-        </li>
+        </li> */}
         {/* <li>
           <Link to="/ourshowroom">Our Showroom</Link>
         </li> */}
         <li>
-          <Link to="/contactus">Contact Us</Link>
+          <NavLink to="/contactus">Contact Us</NavLink>
         </li>
       </ul>
-      <Link to="/ourshowroom" className="showroom-btn">
+      <NavLink to="/ourshowroom" className="showroom-btn">
         Visit Showroom
-      </Link>
+      </NavLink>
     </nav>
   );
 }

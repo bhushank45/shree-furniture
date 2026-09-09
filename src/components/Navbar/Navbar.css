@@ -53,3 +53,9 @@
   background-color: #a94f22;
   box-shadow: 0 1px 15px #c86a34;
 }
+.navlinks a.active:not(.showroom-btn) {
+  color: #fff;
+  padding: 5px;
+  background-color: #c86a34;
+  border-radius: 12px;
+}
