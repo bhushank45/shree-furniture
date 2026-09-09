@@ -5,6 +5,7 @@ import Collections from "../pages/Collections/Collections";
 import AboutUs from "../pages/About/AboutUs";
 import OurShowroom from "../pages/OurShowroom/OurShowroom";
 import ContactUs from "../pages/Contact/ContactUs";
+import ProductDetailsPage from "../pages/ProductDetails/ProductDetailsPage";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "collections",
         element: <Collections />,
+      },
+      {
+        path: "collections/:id",
+        element: <ProductDetailsPage />,
       },
       {
         path: "aboutus",

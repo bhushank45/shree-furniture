@@ -11,13 +11,7 @@ function ProductCard({ product }) {
           className="product-card-image"
         />
 
-        <button
-          type="button"
-          className="product-favorite"
-          aria-label={`Add ${product.name} to favorites`}
-        >
-          ♡
-        </button>
+
       </div>
 
       <div className="product-card-content">

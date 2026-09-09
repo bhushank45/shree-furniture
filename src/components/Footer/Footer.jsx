@@ -16,16 +16,16 @@ function Footer() {
           </p>
           <div className="footer-socials">
             <a href="https://instagram.com">
-              <i class="bi bi-instagram"></i>
+              <i className="bi bi-instagram"></i>
             </a>
             <a href="https://facebook.com">
-              <i class="bi bi-facebook"></i>
+              <i className="bi bi-facebook"></i>
             </a>
             <a href="https://pinterest.com">
-              <i class="bi bi-whatsapp"></i>
+              <i className="bi bi-whatsapp"></i>
             </a>
             <a href="https://pinterest.com">
-              <i class="bi bi-pinterest"></i>
+              <i className="bi bi-pinterest"></i>
             </a>
           </div>
         </div>

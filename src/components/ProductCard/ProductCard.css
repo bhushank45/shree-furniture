@@ -34,34 +34,6 @@
   transform: scale(1.05);
 }
 
-/* Favorite Button */
-
-.product-favorite {
-  align-items: center;
-  background: rgba(255, 253, 250, 0.92);
-  border: 0;
-  border-radius: 50%;
-  color: #c86a34;
-  cursor: pointer;
-  display: flex;
-  font-size: 21px;
-  height: 34px;
-  justify-content: center;
-  line-height: 1;
-  position: absolute;
-  right: 12px;
-  top: 12px;
-  transition:
-    background 0.2s ease,
-    transform 0.2s ease;
-  width: 34px;
-}
-
-.product-favorite:hover {
-  background: #fff;
-  transform: scale(1.08);
-}
-
 /* Card Content */
 
 .product-card-content {
