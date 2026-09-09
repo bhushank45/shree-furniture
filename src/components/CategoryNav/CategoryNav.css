@@ -1,0 +1,32 @@
+.category-nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 38px 10px;
+}
+
+.category-button {
+  background: transparent;
+  border: 1px solid #d8cec1;
+  border-radius: 30px;
+  color: #6f675f;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  padding: 9px 18px;
+  transition: all 0.2s ease;
+}
+
+.category-button:hover {
+  border-color: #c86a34;
+  color: #c86a34;
+}
+
+.category-button.active {
+  background: #c86a34;
+  border-color: #c86a34;
+  color: #fff;
+}

@@ -1,0 +1,34 @@
+.collections-page {
+  background-color: #faf7f2;
+  color: #2b2a28;
+  min-height: 100vh;
+}
+
+.collections-header {
+  border-bottom: 1px solid #e4ddd2;
+  padding: 48px 38px 32px;
+  text-align: center;
+}
+
+.collections-header h1 {
+  color: #2b2a28;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.collections-header p {
+  color: #777169;
+  font-size: 16px;
+}
+
+.collections-products {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 38px;
+}
+
+.product-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,123 @@
+.product-card {
+  background: #fffdfa;
+  border: 1px solid #e4ddd2;
+  border-radius: 6px;
+  overflow: hidden;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 20px rgba(43, 42, 40, 0.12);
+  transform: translateY(-4px);
+}
+
+/* Product Image */
+
+.product-card-image-wrapper {
+  background: #eee8df;
+  height: 220px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product-card-image {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+  width: 100%;
+}
+
+.product-card:hover .product-card-image {
+  transform: scale(1.05);
+}
+
+/* Favorite Button */
+
+.product-favorite {
+  align-items: center;
+  background: rgba(255, 253, 250, 0.92);
+  border: 0;
+  border-radius: 50%;
+  color: #c86a34;
+  cursor: pointer;
+  display: flex;
+  font-size: 21px;
+  height: 34px;
+  justify-content: center;
+  line-height: 1;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+  width: 34px;
+}
+
+.product-favorite:hover {
+  background: #fff;
+  transform: scale(1.08);
+}
+
+/* Card Content */
+
+.product-card-content {
+  padding: 15px 14px 14px;
+}
+
+.product-card-category {
+  color: #857d73;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  margin: 0 0 6px;
+  text-transform: uppercase;
+}
+
+.product-card-name {
+  color: #2b2a28;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin: 0 0 14px;
+  min-height: 42px;
+}
+
+/* Bottom */
+
+.product-card-footer {
+  align-items: center;
+  border-top: 1px solid #eee7de;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  padding-top: 12px;
+}
+
+.product-card-price {
+  color: #c45121;
+  font-size: 15px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.product-card-link {
+  border: 1px solid #e7a16e;
+  border-radius: 4px;
+  color: #b55328;
+  font-size: 11px;
+  padding: 7px 10px;
+  text-decoration: none;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease;
+  white-space: nowrap;
+}
+
+.product-card-link:hover {
+  background: #c86a34;
+  color: #fff;
+}
