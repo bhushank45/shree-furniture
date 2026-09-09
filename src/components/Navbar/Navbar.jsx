@@ -31,7 +31,7 @@ function Navbar() {
         </li>
       </ul>
       <NavLink to="/ourshowroom" className="showroom-btn">
-        Visit Showroom
+        Visit Us Today
       </NavLink>
     </nav>
   );

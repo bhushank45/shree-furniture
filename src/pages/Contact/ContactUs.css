@@ -224,10 +224,11 @@
 /* CTA */
 
 .contact-cta {
-  background: #2b2a28;
+  background: #444444;
   color: #fff;
   padding: 65px 25px;
   text-align: center;
+  border-bottom: 1px solid #555;
 }
 
 .contact-cta > p:first-child {
@@ -263,6 +264,7 @@
   padding: 13px 24px;
   text-decoration: none;
   transition: background 0.2s ease;
+  
 }
 
 .contact-cta a:hover {

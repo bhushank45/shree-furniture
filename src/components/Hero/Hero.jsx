@@ -19,7 +19,7 @@ function Hero() {
               Explore Collections
             </Link>
             <Link to="/aboutus" className="hero-secondary-btn">
-              ABOUT SHREE FURNITURE
+              VISIT OUR SHOWROOM
             </Link>
           </div>
         </div>
