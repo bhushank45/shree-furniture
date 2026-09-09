@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import logo from "../assets/shree-furniture-logo.png"
+import logo from "../assets/shree-furniture-logo.png";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbrand">
         <Link to="/">
-            <img src={logo} alt="Shree Furniture" />
+          <img src={logo} alt="Shree Furniture" />
         </Link>
       </div>
       <ul className="navlinks">
@@ -26,7 +26,9 @@ function Navbar() {
           <Link to="/contactus">Contact Us</Link>
         </li>
       </ul>
-      <Link to="/ourshowroom" className="showroom-btn">Visit Showroom</Link>
+      <Link to="/ourshowroom" className="showroom-btn">
+        Visit Showroom
+      </Link>
     </nav>
   );
 }
