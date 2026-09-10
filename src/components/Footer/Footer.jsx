@@ -21,7 +21,7 @@ function Footer() {
             <a href="https://facebook.com">
               <i className="bi bi-facebook"></i>
             </a>
-            <a href="https://pinterest.com">
+            <a href="https://whatsapp.com">
               <i className="bi bi-whatsapp"></i>
             </a>
             <a href="https://pinterest.com">
@@ -34,7 +34,7 @@ function Footer() {
           <h2>Explore</h2>
           <Link to="/">Home</Link>
           <Link to="/collections">Collections</Link>
-          <Link to="/aboutus">About Us</Link>
+          <Link to="/contactus">Contact Us</Link>
           <Link to="/ourshowroom">Our Showroom</Link>
         </div>
 

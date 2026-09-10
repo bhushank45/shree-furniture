@@ -18,7 +18,7 @@ function Hero() {
             <Link to="/collections" className="hero-primary-btn">
               Explore Collections
             </Link>
-            <Link to="/aboutus" className="hero-secondary-btn">
+            <Link to="/ourshowroom" className="hero-secondary-btn">
               VISIT OUR SHOWROOM
             </Link>
           </div>
